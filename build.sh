@@ -20,6 +20,11 @@ systemctl enable docker
 # install vscode
 dnf5 -y install code
 
+# set up hyprland
+dnf5 copr enable solopasha/hyprland
+
+dnf5 -y install hyprland xdg-desktop-portal-hyprland hyprpaper hyprpicker hypridle hyprlock
+
 # dnf5 -y copr enable ublue-os/staging
 # dnf5 -y install package
 # Disable COPRs so they don't end up enabled on the final image:

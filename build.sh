@@ -22,14 +22,14 @@ dnf5 -y install code
 
 # set up hyprland
 dnf5 copr enable solopasha/hyprland
-dnf5 -y install hyprland xdg-desktop-portal-hyprland hyprpaper hyprpicker hypridle hyprlock
+dnf5 -y install hyprland xdg-desktop-portal-hyprland hyprpaper hyprpicker hypridle hyprlock waybar
 
 # install starship
 dnf5 copr enable atim/starship
 dnf5 install starship
 
 # others
-dnf5 install fastfetch cargo
+dnf5 install fastfetch cargo gh vim
 dnf5 group install c-development
 
 # dnf5 -y copr enable ublue-os/staging
